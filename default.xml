@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="origin"
+          fetch=".." />
+
+  <default revision="refs/heads/ColorOS_JB2_1.0"
+          remote="origin"
+          sync-j="4" />
+
+  <project path="patchrom" name="ColorOS/patchrom" />
+  <project path="build" name="ColorOS/build"/>
+  <project path="device" name="ColorOS/device"/>
+  <project path="others" name="ColorOS/others"/>
+  <project path="smali" name="ColorOS/smali"/>
+  <project path="tools" name="ColorOS/tools"/>
+</manifest>
